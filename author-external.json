@@ -1,0 +1,82 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "*https://TU-DOMINIO/#author*",
+  "name": "Verónica Llana Celada",
+  "alternateName": "Verónica Llana",
+  "url": "*https://TU-DOMINIO/sobre-mi/*",
+  "image": "*https://TU-DOMINIO/ruta-a-tu-foto.jpg*",
+  "jobTitle": "Autora / Analista (SEO)",
+  "description": "Autora y analista SEO. Escribo y reviso contenidos con enfoque editorial y basado en evidencia, especialmente en SEO local, visibilidad orgánica y datos estructurados. Mi rol se limita a la autoría y revisión editorial del contenido en el momento de publicación.",
+  "sameAs": [
+    "https://www.linkedin.com/in/veronicallana",
+    "https://github.com/Veronicallana",
+    "https://orcid.org/0000-0003-0876-2344",
+    "https://share.google/GD5ZDOhy1HZxMmDYK"
+  ],
+  "identifier": [
+    {
+      "@type": "PropertyValue",
+      "propertyID": "ORCID",
+      "value": "0000-0003-0876-2344",
+      "url": "https://orcid.org/0000-0003-0876-2344"
+    }
+  ],
+  "knowsAbout": [
+    {
+      "@type": "Thing",
+      "name": "Search engine optimization",
+      "sameAs": "https://en.wikipedia.org/wiki/Search_engine_optimization"
+    },
+    {
+      "@type": "Thing",
+      "name": "Local search engine optimization",
+      "sameAs": "https://en.wikipedia.org/wiki/Local_search_engine_optimization"
+    },
+    {
+      "@type": "Thing",
+      "name": "Structured data",
+      "sameAs": "https://en.wikipedia.org/wiki/Structured_data"
+    }
+  ],
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "SEO Consultant",
+    "description": "Especializada en SEO local, arquitectura web, datos estructurados y modelado de entidades.",
+    "occupationLocation": {
+      "@type": "Country",
+      "name": "España"
+    }
+  },
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Interamplify",
+    "url": "https://interamplify.com/es/"
+  },
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "Universidad de Oviedo"
+  },
+  "mainEntityOfPage": "*https://TU-DOMINIO/sobre-mi/*",
+  "publishingPrinciples": "*https://TU-DOMINIO/principios-editoriales/*",
+  "subjectOf": [
+    {
+      "@type": "CreativeWork",
+      "name": "Repositorio: Ejemplos de schema orientados a E-E-A-T",
+      "url": "https://github.com/Veronicallana/schema-eeat-ejemplos"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Página de autor / perfil profesional",
+      "url": "*https://TU-DOMINIO/sobre-mi/*"
+    }
+  ],
+  "memberOf": [
+    {
+      "@type": "Organization",
+      "name": "*Asociación/colectivo profesional (si aplica; si no, elimina memberOf)*",
+      "url": "*URL asociación (si aplica)*"
+    }
+  ],
+  "disambiguatingDescription": "Autora y consultora SEO española. Este perfil describe mi rol editorial como autora/revisora de contenidos; no implica control sobre decisiones comerciales o técnicas de los sitios donde colaboro."
+}
