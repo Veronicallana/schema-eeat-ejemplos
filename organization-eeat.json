@@ -1,1 +1,135 @@
-
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "*https://TU-DOMINIO/#organization*",
+  "url": "*https://TU-DOMINIO/*",
+  "name": "*Nombre público de la organización (marca editorial)*",
+  "legalName": "*Nombre legal (si aplica; si no, elimina)*",
+  "description": "Organización editora/publicadora de contenidos. Atribuye autoría de forma explícita, documenta criterios editoriales y aplica políticas de corrección y transparencia.",
+  "logo": "*https://TU-DOMINIO/ruta-logo.png*",
+  "image": "*https://TU-DOMINIO/ruta-imagen.png*",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "ES",
+    "addressRegion": "*Asturias (si aplica; si no, elimina addressRegion)*",
+    "addressLocality": "*Ciudad (opcional)*"
+  },
+  "areaServed": [
+    { "@type": "AdministrativeArea", "name": "Asturias" },
+    { "@type": "Country", "name": "España" }
+  ],
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "contactType": "Atención editorial",
+      "email": "mailto:*EMAIL-EDITORIAL*",
+      "url": "*https://TU-DOMINIO/contacto/*",
+      "availableLanguage": ["es"]
+    }
+  ],
+  "publishingPrinciples": "*https://TU-DOMINIO/principios-editoriales/*",
+  "ethicsPolicy": "*https://TU-DOMINIO/politica-etica/*",
+  "correctionsPolicy": "*https://TU-DOMINIO/politica-correcciones/*",
+  "ownershipFundingInfo": "*https://TU-DOMINIO/propiedad-y-financiacion/*",
+  "founder": {
+    "@type": "Person",
+    "name": "Verónica Llana Celada",
+    "sameAs": [
+      "https://www.linkedin.com/in/veronicallana",
+      "https://github.com/Veronicallana",
+      "https://orcid.org/0000-0003-0876-2344",
+      "https://share.google/GD5ZDOhy1HZxMmDYK"
+    ]
+  },
+  "foundingDate": "*YYYY-MM-DD (opcional, si aplica)*",
+  "foundingLocation": {
+    "@type": "Place",
+    "name": "*Oviedo / Asturias / España (opcional, si aplica)*"
+  },
+  "sameAs": [
+    "*URL página de empresa en LinkedIn (si existe)*",
+    "*URL GBP público estable (si existe)*"
+  ],
+  "knowsAbout": [
+    {
+      "@type": "Thing",
+      "name": "Search engine optimization",
+      "sameAs": "https://en.wikipedia.org/wiki/Search_engine_optimization"
+    },
+    {
+      "@type": "Thing",
+      "name": "Local search engine optimization",
+      "sameAs": "https://en.wikipedia.org/wiki/Local_search_engine_optimization"
+    },
+    {
+      "@type": "Thing",
+      "name": "Structured data",
+      "sameAs": "https://en.wikipedia.org/wiki/Structured_data"
+    }
+  ],
+  "hasCredential": [
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "*Credencial real (si aplica)*",
+      "credentialCategory": "*Certificate / Course / Degree*",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "*Entidad que reconoce/emite (si aplica)*",
+        "url": "*URL entidad (opcional)*"
+      }
+    }
+  ],
+  "hasCertification": [
+    {
+      "@type": "Certification",
+      "name": "*ISO 9001 (si aplica) / ISO 27001 / etc.*",
+      "description": "*Descripción breve de la certificación (opcional)*",
+      "issuedBy": {
+        "@type": "Organization",
+        "name": "*Entidad certificadora (si aplica)*",
+        "url": "*URL entidad certificadora (opcional)*"
+      }
+    }
+  ],
+  "memberOf": [
+    {
+      "@type": "Organization",
+      "name": "*Asociación / colectivo profesional (si aplica)*",
+      "url": "*URL asociación (si aplica)*"
+    }
+  ],
+  "award": [
+    "*Premio/reconocimiento real (si aplica; si no, elimina award)*"
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "*4.8*",
+    "reviewCount": "*32*",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "*5*",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "*Nombre revisor (si es público)*"
+      },
+      "reviewBody": "*Texto de reseña (si es público y real)*",
+      "datePublished": "*YYYY-MM-DD*"
+    }
+  ],
+  "mainEntityOfPage": "*https://TU-DOMINIO/sobre-la-organizacion/*",
+  "subjectOf": [
+    {
+      "@type": "CreativeWork",
+      "name": "Principios editoriales",
+      "url": "*https://TU-DOMINIO/principios-editoriales/*"
+    }
+  ]
