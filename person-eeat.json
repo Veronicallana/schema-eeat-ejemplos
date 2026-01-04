@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "*https://TU-DOMINIO/#person*",
+  "name": "Verónica Llana Celada",
+  "alternateName": "Verónica Llana",
+  "url": "*https://TU-DOMINIO/sobre-mi/*",
+  "image": "*https://TU-DOMINIO/ruta-a-tu-foto.jpg*",
+  "jobTitle": "Consultora SEO",
+  "description": "Consultora SEO especializada en visibilidad orgánica, SEO local y estrategias basadas en entidades y datos estructurados. Trabajo con auditorías técnicas, arquitectura web, optimización de Google Business Profile y contenidos alineados con intención de búsqueda.",
+  "knowsAbout": [
+    {
+      "@type": "Thing",
+      "name": "Search engine optimization",
+      "sameAs": "https://en.wikipedia.org/wiki/Search_engine_optimization"
+    },
+    {
+      "@type": "Thing",
+      "name": "Local search engine optimization",
+      "sameAs": "https://en.wikipedia.org/wiki/Local_search_engine_optimization"
+    },
+    {
+      "@type": "Thing",
+      "name": "Google Business Profile",
+      "sameAs": "https://en.wikipedia.org/wiki/Google_Business_Profile"
+    },
+    {
+      "@type": "Thing",
+      "name": "Structured data",
+      "sameAs": "https://en.wikipedia.org/wiki/Structured_data"
+    },
+    {
+      "@type": "Thing",
+      "name": "Knowledge graph",
+      "sameAs": "https://en.wikipedia.org/wiki/Knowledge_graph"
+    }
+  ],
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Interamplify",
+    "url": "https://interamplify.com/es/"
+  },
+  "alumniOf": [
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "Universidad de Oviedo"
+    }
+  ],
+  "sameAs": [
+    "https://www.linkedin.com/in/veronicallana",
+    "https://github.com/Veronicallana",
+    "https://orcid.org/0000-0003-0876-2344",
+    "https://share.google/GD5ZDOhy1HZxMmDYK"
+  ],
+  "identifier": [
+    {
+      "@type": "PropertyValue",
+      "propertyID": "ORCID",
+      "value": "0000-0003-0876-2344",
+      "url": "https://orcid.org/0000-0003-0876-2344"
+    }
+  ],
+  "email": "veronica.llana@gmail.com",
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "contactType": "Consultoría SEO",
+      "email": "*TU-EMAIL-PROFESIONAL*",
+      "url": "*https://TU-DOMINIO/contacto/*",
+      "availableLanguage": ["es"]
+    }
+  ]
+}
