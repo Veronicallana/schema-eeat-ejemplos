@@ -278,5 +278,5 @@ La confianza se construye cuando:
 
 Estos ejemplos intentan reflejar ese principio.
 
-Autor: Verónica Llana Celada (ORCID: https://orcid.org/0000-0003-0876-2344) D
+Autor: Verónica Llana Celada (ORCID: https://orcid.org/0000-0003-0876-2344)
 DOI: https://doi.org/10.5281/zenodo.18148283
