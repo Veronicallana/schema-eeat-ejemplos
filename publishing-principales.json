@@ -1,0 +1,14 @@
+{
+  "@context": "https://schema.org",
+  "@type": "organization",
+  "actionableFeedbackPolicy": "https://TU-DOMINIO/politica-retroalimentacion/ Ej.https://manofmany.com/corrections-policy",
+  "correctionsPolicy": "https://TU-DOMINIO/politica-correcciones/ Ej.https://manofmany.com/corrections-policy",
+  "diversityPolicy": "https://TU-DOMINIO/diversidad-e-inclusion/ Ej.https://manofmany.com/diversity-policy",
+  "masthead": "https://TU-DOMINIO/gestion-editorial-superior",
+  "verificationFactCheckingPolicy": "https://TU-DOMINIO/verificacion-y-fact-checking/ Ej.https://manofmany.com/fact-checking-policy",
+  "ownershipFundingInfo": "https://TU-DOMINIO/propiedad-y-financiacion/ Ej.https://manofmany.com/ownership",
+  "unnamedSourcesPolicy": "https://TU-DOMINIO/fuentes-anonimas/ Ej. https://manofmany.com/unnamed-sources-policy",
+  "diversityPolicy": "https://TU-DOMINIO/diversidad-e-inclusion/ Eh. https://manofmany.com/diversity-policy",
+  "missionCoveragePrioritiesPolicy": "https://TU-DOMINIO/prioridades-cobertura-mision/",
+  "noBylinesPolicy": "https://TU-DOMINIO/politica-de-no-firma-de-articulos/ Ej.https://manofmany.com/no-bylines-policy"
+}
